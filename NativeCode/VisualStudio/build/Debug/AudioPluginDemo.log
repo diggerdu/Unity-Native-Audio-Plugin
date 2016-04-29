@@ -1,0 +1,101 @@
+﻿  AudioPluginUtil.cpp
+..\AudioPluginUtil.cpp(9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+..\AudioPluginUtil.cpp(18): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: 参见“vsprintf”的声明
+..\AudioPluginUtil.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+  ..\AudioPluginUtil.cpp(96): note: 参见对正在编译的函数 模板 实例化“void FFTProcess<double>(UnityComplexNumber *,int,bool)”的引用
+..\AudioPluginUtil.cpp(40): warning C4018: “<”: 有符号/无符号不匹配
+..\AudioPluginUtil.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+..\AudioPluginUtil.cpp(61): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\digge\desktop\mr zhu\unity\nativecode\AudioPluginUtil.h(81): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  ..\AudioPluginUtil.cpp(84): note: 参见对正在编译的函数 模板 实例化“void UnityComplexNumberT<float>::Sub<float,T,float>(const UnityComplexNumberT<float> &,const UnityComplexNumberT<T> &,UnityComplexNumberT<float> &)”的引用
+          with
+          [
+              T=double
+          ]
+  ..\AudioPluginUtil.cpp(84): note: 参见对正在编译的函数 模板 实例化“void UnityComplexNumberT<float>::Sub<float,T,float>(const UnityComplexNumberT<float> &,const UnityComplexNumberT<T> &,UnityComplexNumberT<float> &)”的引用
+          with
+          [
+              T=double
+          ]
+  ..\AudioPluginUtil.cpp(96): note: 参见对正在编译的函数 模板 实例化“void FFTProcess<double>(UnityComplexNumber *,int,bool)”的引用
+c:\users\digge\desktop\mr zhu\unity\nativecode\AudioPluginUtil.h(82): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\digge\desktop\mr zhu\unity\nativecode\AudioPluginUtil.h(74): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  ..\AudioPluginUtil.cpp(85): note: 参见对正在编译的函数 模板 实例化“void UnityComplexNumberT<float>::Add<float,T,float>(const UnityComplexNumberT<float> &,const UnityComplexNumberT<T> &,UnityComplexNumberT<float> &)”的引用
+          with
+          [
+              T=double
+          ]
+  ..\AudioPluginUtil.cpp(85): note: 参见对正在编译的函数 模板 实例化“void UnityComplexNumberT<float>::Add<float,T,float>(const UnityComplexNumberT<float> &,const UnityComplexNumberT<T> &,UnityComplexNumberT<float> &)”的引用
+          with
+          [
+              T=double
+          ]
+c:\users\digge\desktop\mr zhu\unity\nativecode\AudioPluginUtil.h(75): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hrtftable.cpp
+  Plugin_ConvolutionReverb.cpp
+  Plugin_CorrelationMeter.cpp
+  Plugin_Equalizer.cpp
+  Plugin_Granulator.cpp
+..\Plugin_Granulator.cpp(74): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+..\Plugin_Granulator.cpp(261): warning C4018: “<”: 有符号/无符号不匹配
+..\Plugin_Granulator.cpp(281): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+..\Plugin_Granulator.cpp(303): warning C4018: “<”: 有符号/无符号不匹配
+..\Plugin_Granulator.cpp(333): warning C4018: “<”: 有符号/无符号不匹配
+..\Plugin_Granulator.cpp(345): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+..\Plugin_Granulator.cpp(383): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+..\Plugin_Granulator.cpp(371): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+..\Plugin_Granulator.cpp(407): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+  Plugin_ImpactGenerator.cpp
+..\Plugin_ImpactGenerator.cpp(70): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+..\Plugin_ImpactGenerator.cpp(100): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  Plugin_ImpulseGenerator.cpp
+  Plugin_Lofinator.cpp
+  Plugin_LevelMixer.cpp
+  Plugin_LoudnessMeter.cpp
+  Plugin_ModalFilter.cpp
+..\Plugin_ModalFilter.cpp(89): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+  Plugin_Multiband.cpp
+..\Plugin_Multiband.cpp(181): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+..\Plugin_Multiband.cpp(182): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+..\Plugin_Multiband.cpp(183): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+..\Plugin_Multiband.cpp(184): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  Plugin_NoiseBox.cpp
+  Plugin_Oscilloscope.cpp
+  Plugin_PitchDetector.cpp
+  Plugin_RingModulator.cpp
+  Plugin_Routing.cpp
+  Plugin_Spatializer.cpp
+..\Plugin_Spatializer.cpp(90): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+..\Plugin_Spatializer.cpp(91): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+..\Plugin_Spatializer.cpp(319): warning C4018: “<”: 有符号/无符号不匹配
+  Plugin_SpatializerReverb.cpp
+..\Plugin_SpatializerReverb.cpp(125): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+..\Plugin_SpatializerReverb.cpp(130): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+..\Plugin_SpatializerReverb.cpp(140): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+..\Plugin_SpatializerReverb.cpp(144): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+  正在编译...
+  Plugin_StereoWidener.cpp
+  Plugin_Synthesizer.cpp
+..\Plugin_Synthesizer.cpp(220): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+..\Plugin_Synthesizer.cpp(249): warning C4244: “=”: 从“float”转换到“UInt32”，可能丢失数据
+..\Plugin_Synthesizer.cpp(250): warning C4244: “=”: 从“float”转换到“UInt32”，可能丢失数据
+..\Plugin_Synthesizer.cpp(251): warning C4244: “=”: 从“float”转换到“UInt32”，可能丢失数据
+..\Plugin_Synthesizer.cpp(252): warning C4244: “=”: 从“float”转换到“UInt32”，可能丢失数据
+..\Plugin_Synthesizer.cpp(345): warning C4018: “<”: 有符号/无符号不匹配
+..\Plugin_Synthesizer.cpp(529): warning C4244: “初始化”: 从“UInt64”转换到“int”，可能丢失数据
+  Plugin_TeeBee.cpp
+  Plugin_TeeDee.cpp
+  Plugin_Teleport.cpp
+  Plugin_TubeResonator.cpp
+..\Plugin_TubeResonator.cpp(70): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+  Plugin_Vocoder.cpp
+..\Plugin_Vocoder.cpp(130): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Plugin_WahWah.cpp
+  正在生成代码...
+    正在创建库 C:\Users\digge\Desktop\Mr Zhu\Unity\NativeCode\VisualStudio\build\Debug\AudioPluginDemo.lib 和对象 C:\Users\digge\Desktop\Mr Zhu\Unity\NativeCode\VisualStudio\build\Debug\AudioPluginDemo.exp
+  AudioPluginDemo.vcxproj -> C:\Users\digge\Desktop\Mr Zhu\Unity\NativeCode\VisualStudio\build\Debug\AudioPluginDemo.dll
+          1 file(s) copied.
